@@ -1,7 +1,6 @@
-  sentence1 = "Hello there, and how are you?"
+def reverse_each_word
+    sentence1 = "Hello there, and how are you?"
   sentence2 = "Hi again, just making sure it's reversed!"
-def reverse_each_word(sentence1, sentence2)
-  
   if sentence1
     sentence1 = sentence1.split
     sentence1.reverse
