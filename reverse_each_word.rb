@@ -1,5 +1,6 @@
-
-def reverse_each_word
+  sentence1 = "Hello there, and how are you?"
+  sentence2 = "Hi again, just making sure it's reversed!"
+def reverse_each_word(sentence1)
 
   
   sentence1.split.collect {|word| word.reverse}.join(" ")
@@ -9,7 +10,7 @@ def reverse_each_word
   puts sentence2
   
 end
-    reverse_each_word
+    reverse_each_word(sentence1)
     
 
   
