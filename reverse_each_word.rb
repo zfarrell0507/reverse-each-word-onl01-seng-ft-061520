@@ -1,11 +1,7 @@
 def reverse_each_word
     sentence1 = "Hello there, and how are you?"
   sentence2 = "Hi again, just making sure it's reversed!"
-  if sentence1
-    sentence1 = sentence1.split
-    sentence1.reverse
-    sentence1.join(" ")
-    puts sentence1
+  
     
     
 
