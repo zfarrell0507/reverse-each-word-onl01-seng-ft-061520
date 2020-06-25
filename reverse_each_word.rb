@@ -2,7 +2,7 @@
   sentence2 = "Hi again, just making sure it's reversed!"
 def reverse_each_word(sentence1, sentence2)
   if sentence1
-    sentence1.reverse
+    sentence1.split
     
     
 
