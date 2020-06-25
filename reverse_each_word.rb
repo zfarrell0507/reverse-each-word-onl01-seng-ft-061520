@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   sentence.split.map {|word| word.reverse}.join(" ")
   puts sentence
 end
-    
+    reverse_each_word(sentence)
     
 
   
