@@ -4,6 +4,7 @@ def reverse_each_word(sentence1, sentence2)
   if sentence1
     sentence1.reverse
     
+    
 
   
   
